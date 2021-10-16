@@ -4,10 +4,10 @@ include:
   file: 'templates/node-pipeline.yml'
 
 # could customize your build param here or by default as the undermentioned
-variables:
-  BUILD_SHELL: 'npm run build'
-  CACHE_DIR: 'build/'
-  BUILD_IMAGE: 'node:14.17.6-stretch-slim'
+#variables:
+#  BUILD_SHELL: 'npm run build'
+#  CACHE_DIR: 'build/'
+#  BUILD_IMAGE: 'node:14.17.6-stretch-slim'
 
-  TEST_SHELL: 'npm run test'
-  TEST_IMAGE: 'node:14.17.6-stretch-slim'
+#  TEST_SHELL: 'npm run test'
+#  TEST_IMAGE: 'node:14.17.6-stretch-slim'
